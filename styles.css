@@ -29,6 +29,19 @@ body {
     background-color: #fff4ef !important;
     color: #2a0f25 !important;
   }
+
+  body {
+    background: radial-gradient(circle at top left, #ffe9dc, transparent 45%),
+      radial-gradient(circle at 80% 20%, #ffe1ef, transparent 40%),
+      radial-gradient(circle at 20% 70%, #e9fff5, transparent 45%),
+      linear-gradient(120deg, #fff4ef 10%, #ffe6f1 60%, #fff4ef 95%) !important;
+    filter: none !important;
+  }
+
+  body * {
+    color: inherit !important;
+    filter: none !important;
+  }
 }
 
 *,
