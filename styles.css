@@ -12,12 +12,19 @@
   --shadow: 0 25px 80px rgba(22, 8, 26, 0.18);
   --soft-shadow: 0 12px 24px rgba(22, 8, 26, 0.12);
   --meter: 82%;
+  color-scheme: only light;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+html, body {
+  color-scheme: light;
+  background-color: #fff4ef;
+  color: #2a0f25;
 }
 
 body {
