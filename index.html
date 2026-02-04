@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pookie, Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-pookie="Pookie">
+    <div class="sparkle-layer" aria-hidden="true"></div>
+    <div class="heart-layer" aria-hidden="true"></div>
+
+    <header class="hero">
+      <div class="ribbon">Handcrafted for <span data-pookie-name>pookie</span></div>
+      <div class="title" aria-hidden="true">
+      <h1>
+        <span class="kicker">Dear</span>
+        <span class="name" data-pookie-name>pookie</span>
+      </h1>
+      </div>
+      <p class="subtitle">
+        I built this tiny universe to say one huge thing: Would you be my Valentines?
+      </p>
+      <div class="hero-actions">
+        <button class="btn btn-primary" data-yes>Yes, obviously</button>
+        <button class="btn btn-outline" data-no>Not a chance</button>
+      </div>
+      <p class="tiny">Tip: try to click “Not a chance.”</p>
+    </header>
+
+    <!-- <main class="content">
+      <section class="card love-meter">
+        <div>
+          <h2>Love Meter</h2>
+          <p>Drag the dial until your heart starts humming.</p>
+        </div>
+        <div class="meter">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="82"
+            data-love-meter
+            aria-label="Love meter"
+          />
+          <div class="meter-value" data-love-value>Cosmic crush</div>
+        </div>
+      </section>
+
+      <section class="card grid">
+        <div class="note">
+          <h2>Reasons I adore you</h2>
+          <ul class="reasons">
+            <li>You make ordinary days sparkle.</li>
+            <li>You laugh like sunshine in sneakers.</li>
+            <li>You remember the little things I forget.</li>
+            <li>You make “us” feel like the best plot twist.</li>
+          </ul>
+        </div>
+        <div class="polaroid sticker" data-drag>
+          <div class="polaroid-photo">
+            <span>Insert our cutest photo here</span>
+          </div>
+          <div class="polaroid-caption">You + me = heart fireworks</div>
+        </div>
+      </section>
+
+      <section class="card message-bottle">
+        <div>
+          <h2>Message in a Bottle</h2>
+          <p>Write a tiny love note. It floats back to you.</p>
+        </div>
+        <div class="bottle">
+          <textarea
+            rows="4"
+            placeholder="Pookie, I love the way you..."
+            data-message-input
+          ></textarea>
+          <div class="bottle-note" data-message-output>
+            Pookie, I love the way you...
+          </div>
+        </div>
+      </section>
+
+      <section class="card grid">
+        <div class="note">
+          <h2>Our Tiny Timeline</h2>
+          <div class="timeline">
+            <div>
+              <span>Then</span>
+              <p>We met and the room turned brighter.</p>
+            </div>
+            <div>
+              <span>Now</span>
+              <p>We’re building inside jokes like tiny castles.</p>
+            </div>
+            <div>
+              <span>Next</span>
+              <p>Adventures, snacks, and soft landings.</p>
+            </div>
+          </div>
+        </div>
+        <div class="sticker stack" data-drag>
+          <h3>Playlist for us</h3>
+          <p>1. Your laugh</p>
+          <p>2. Coffee runs</p>
+          <p>3. Lazy Sundays</p>
+          <p>4. The song that makes you dance</p>
+        </div>
+      </section>
+    </main>
+
+    <div class="overlay" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="overlay-card">
+        <h2>It’s a date!</h2>
+        <p>
+          <span data-pookie-name>pookie</span>, consider this your official
+          invitation to a night of cozy things and ridiculous amounts of love.
+        </p>
+        <button class="btn btn-primary" data-close>Seal it with a kiss</button>
+      </div>
+    </div> -->
+
+    <audio id="no-hover-sound" src="wiwi.mp3" preload="auto"></audio>
+    <audio id="yes-click-sound" src="wawa.mp3" preload="auto"></audio>
+    <div class="kiss-overlay" aria-hidden="true">
+      <div class="kiss-burst"></div>
+      <img class="kiss-gif" src="kiss.gif" alt="Kiss gif" />
+      <div class="kiss-caption">Now the universe approves of us.</div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
