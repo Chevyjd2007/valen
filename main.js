@@ -1,9 +1,9 @@
 const body = document.body;
-const pookieName = body.dataset.pookie ?? "Pookie";
-const nameTargets = document.querySelectorAll("[data-pookie-name]");
-nameTargets.forEach((el) => {
-  el.textContent = pookieName;
-});
+// const pookieName = body.dataset.pookie ?? "Pookie";
+// const nameTargets = document.querySelectorAll("[data-pookie-name]");
+// nameTargets.forEach((el) => {
+//   el.textContent = pookieName;
+// });
 const overlay = document.querySelector(".overlay");
 const yesButton = document.querySelector("[data-yes]");
 const noButton = document.querySelector("[data-no]");
